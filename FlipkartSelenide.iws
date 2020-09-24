@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="" />
+    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +180,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -239,7 +250,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Multitab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pagination" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -256,7 +267,7 @@
       <recent name="C:\Selenide pgrm\FlipkartSelenide\resource" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Selenide pgrm/FlipkartSelenide/testng.xml">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -284,6 +295,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Selenide pgrm/FlipkartSelenide/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FlipkartSelenide" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Flipkart1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FlipkartSelenide" />
       <extension name="coverage">
@@ -303,6 +324,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Selenide pgrm/FlipkartSelenide/testng.xml" />
         <item itemvalue="TestNG.Flipkart1" />
       </list>
     </recent_temporary>
@@ -410,41 +432,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600762272396" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600783631445">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600919730233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600783631445" />
-    <state width="1306" height="219" key="GridCell.Tab.0.bottom" timestamp="1600782169023">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600919730233" />
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1600944335506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.0.center" timestamp="1600782169023">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600944335506" />
+    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1600944335506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.0.left" timestamp="1600782169023">
+    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600944335506" />
+    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1600944335506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.0.right" timestamp="1600782169023">
+    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600944335506" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1600944335506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600782169023">
+    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600944335506" />
+    <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.1.center" timestamp="1600782169023">
+    <state width="1306" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
+    <state width="1306" height="219" key="GridCell.Tab.1.center" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.1.left" timestamp="1600782169023">
+    <state width="1306" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
+    <state width="1306" height="219" key="GridCell.Tab.1.left" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
-    <state width="1306" height="219" key="GridCell.Tab.1.right" timestamp="1600782169023">
+    <state width="1306" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
+    <state width="1306" height="219" key="GridCell.Tab.1.right" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600782169023" />
+    <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
   </component>
 </project>
