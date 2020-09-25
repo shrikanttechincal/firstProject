@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import java.util.*;
@@ -49,7 +49,9 @@ public class Flipkart1 {
         driver.manage().window().maximize();
         driver.get("https://www.flipkart.com/");
         Action a = new Action(driver);
-        a.popUp().click();
+        if(a.popUp().isEnabled()){
+            a.popUp().click();
+        }
         a.insertShoes().sendKeys(product);
         a.hitSearch().click();
 
@@ -116,7 +118,9 @@ public class Flipkart1 {
         driver.manage().window().maximize();
         driver.get("https://www.flipkart.com/");
         Action a = new Action(driver);
-        a.popUp().click();
+       if(a.popUp().isDisplayed()) {
+           a.popUp().click();
+       }
         a.insertShoes().sendKeys(product3);
         a.hitSearch().click();
         try {
@@ -186,7 +190,7 @@ public class Flipkart1 {
         String childtitle= driver.getTitle();
         System.out.println("chiltitle"    +childtitle);
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -199,13 +203,20 @@ public class Flipkart1 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        String assertname1=a.pName1();
+
+        //Bagrin+Running shoes for Men and substring(removing) (Red)
+        String x1=a.xName1();// Bagrin
+        String assertname1=a.pName1();//Running shoes for Men(Red)
+        String x2=assertname1.substring(0,assertname1.lastIndexOf("(")).trim();
+        String x3=x1+x2;
+        System.out.println("x3    "+          x3 );
+
+
+
+
 
         String assert1=a.pPrice1();
         String Pprice1=assert1.split("\u20B9")[1];
-
-
-        System.out.println("assertname1  :  "   +assertname1 );
 
         System.out.println("Pprice1 = "   +Pprice1 );
         int pro1=Integer.parseInt(Pprice1);
@@ -227,7 +238,7 @@ public class Flipkart1 {
         System.out.println("parentwindow1 id"   +parentwindow1);
         System.out.println("select another shoes from parernt window");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -257,12 +268,20 @@ public class Flipkart1 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        String assertname2=a.pName2();
+
+
+
+        String y1=a.yName1();// Bagrin
+        String assertname2=a.pName2();//Running shoes for Men(Red)
+        String y2=assertname2.substring(0,assertname2.lastIndexOf("(")).trim();//Running shoes for men
+        String y3=y1+y2;//Bagrin+Running shoes for men
+        System.out.println("y3    "+          y3 );
         String assert2=a.pPrice2();
+
         String Pprice2=assert2.split("\u20B9")[1];
 
 
-        System.out.println("assertname2  :  "   +assertname2 );
+
 
         System.out.println("Pprice2 = "   +Pprice2 );
 
@@ -310,24 +329,22 @@ public class Flipkart1 {
         int add1=pro1+pro2;
         System.out.println("Addition of selection= "   +add1 );
 
-
+        Assert.assertTrue(x3.contains(assertname3));
+        Assert.assertTrue(y3.contains(assertname4));
+        System.out.println("Comparison going on");
   Assert.assertEquals(Pprice1,Pprice3);
   System.out.println("1st product price tested propely");
         Assert.assertEquals(Pprice2,Pprice4);
         System.out.println("2nd product price tested propely");
         ///basket total
      String bt1=   a.basketTotal1();
-
+        System.out.println("bt1"+bt1);
         String bt2=bt1.split("\u20B9")[1];
 
         int basketpricetotal=Integer.parseInt(bt2);
         System.out.println("basketpricetotal  :  "   +basketpricetotal);
         System.out.println("comparison");
         Assert.assertEquals(add1,basketpricetotal);
-
-
-
-
         return a1.equals(a2);
     }
 

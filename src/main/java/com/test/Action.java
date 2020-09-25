@@ -28,11 +28,22 @@ public class Action {
     By price1=By.xpath("//div[@class='_1vC4OE _3qQ9m1']");
     By name2= By.xpath("//span[@class='_35KyD6']");
     By price2=By.xpath("//div[@class='_1vC4OE _3qQ9m1']");
-    By name3=By.xpath("//a[@class='_325-ji _3ROAwx']");
-    By price3=By.xpath("//span[@class='pMSy0p XU9vZa']");
-    By name4=By.xpath("//a[contains(text(),'ATHLETIC WORKS by Walmart Walking Shoes For Men')]");
-    By price4=By.xpath("//span[text()='239']");
- By basketTotal=By.xpath("//span[contains(text(),'558')]");
+    By name3=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[3]/div/div[1]/div[1]/div[1]/a");
+    By price3=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[3]/div/div[1]/div[1]/span[1]");
+    By name4=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/a");
+    By price4=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/span[1]");
+    By basketTotal=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div/span");//a[@class='_3ko_Ud']
+    By xname1=By.xpath("//span[@class='_2J4LW6']");
+    By yname1=By.xpath("//span[@class='_2J4LW6']");
+
+
+    public String xName1(){
+        return driver.findElement(xname1).getText();
+    }
+    public String yName1(){
+        return driver.findElement(yname1).getText();
+    }
+
 
     public static void delay(){
         try {
@@ -73,10 +84,14 @@ public String pName1() {
         return driver.findElement(price4).getText();
     }
 
+
+
+
     //to close popup
     public WebElement popUp() {
         return driver.findElement(popUpCross);
     }
+
 
     //to give input field shoes
     public WebElement insertShoes() {
