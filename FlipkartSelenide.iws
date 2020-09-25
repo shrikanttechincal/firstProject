@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="" />
+    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,7 +267,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SelenideFlipkart1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -451,22 +453,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601015845512" />
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1601018505215">
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1601019764637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601018505215" />
-    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1601018505215">
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
+    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1601019764637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601018505215" />
-    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1601018505215">
+    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
+    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1601019764637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601018505215" />
-    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1601018505215">
+    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1601019764637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601018505215" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
     <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
