@@ -24,15 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" afterDir="false" />
-    </list>
+    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
