@@ -152,7 +152,7 @@ public class Flipkart1 {
 
         Selection select=new Selection(driver);
         //selecting 2nd position shoes and select  is object of Selection class
-        select.getBoolean(2);
+        select.getBoolean(3);
         String parent_title= driver.getTitle();
         System.out.println("parent"  +parent_title);
         Assert.assertEquals("Shoes - Buy Products Online at Best Price in India - All Categories | Flipkart.com",parent_title);
@@ -171,26 +171,26 @@ public class Flipkart1 {
         //---------------------------------assertion1----------------------------------------//
 
         //Bagrin+Running shoes for Men and substring(removing) (Red)
-        String brand=a.xName1();// Bagrin
-        String including_Color=a.pName1();//Running shoes for Men(Red)
+        String brand=a.brandName1();// Bagrin
+        String including_Color=a.shoeName1();//Running shoes for Men(Red)
         String excluding_Color=including_Color.substring(0,including_Color.lastIndexOf("(")).trim();
         String shoename1=brand+excluding_Color;
         System.out.println("shoename1="+shoename1);
-        String price_with_dollar1=a.pPrice1();
+        String price_with_dollar1=a.shoePrice1();
         String price_without_dollar1=price_with_dollar1.split("\u20B9")[1];
         System.out.println("price_without_dollar1 = "   +price_without_dollar1 );
         //conversion from string to Integer
         int shoe_price1=Integer.parseInt(price_without_dollar1);
         System.out.println("After conversion first product  price to int = "+shoe_price1);
         action.delay();
-        a.addTocart().click();
+        a.addToCartShoe1().click();
         action.delay();
         //again back to parent page
         driver.switchTo().window(parent_window1);
         System.out.println("parentwindow1 id="+parent_window1);
         System.out.println("select another shoes from parent window");
         action.delay();
-        select.getBoolean(3);
+        select.getBoolean(4);
         action.delay();
         //switching to new child window
         Set<String> window_count= driver.getWindowHandles();
@@ -207,32 +207,32 @@ public class Flipkart1 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        String brand1=a.yName1();// Bagrin
-        String including_Color1=a.pName2();//Running shoes for Men(Red)
+        String brand1=a.brandName2();// Bagrin
+        String including_Color1=a.shoeName2();//Running shoes for Men(Red)
         String excluding_Color1=including_Color1.substring(0,including_Color1.lastIndexOf("(")).trim();//Running shoes for men
         String shoename2=brand1+excluding_Color1;//Bagrin+Running shoes for men
         System.out.println("shoename2="+shoename2);
-        String price_with_dollar2=a.pPrice2();
+        String price_with_dollar2=a.shoePrice2();
         String price_without_dollar2=price_with_dollar2.split("\u20B9")[1];
         System.out.println("price_with_dollar2= " +price_without_dollar2 );
         int shoe_price2=Integer.parseInt(price_without_dollar2);
         System.out.println("shoe_price2="+ shoe_price2 );
         a.secondShoesize().click();
         action.delay();
-        a.addTocart2().click();
+        a.addToCartShoe2().click();
         System.out.println("second shoes selected");
        //Card Items assertion
         action.delay();
-        String shoe_cart1=a.pName3();
-        String cart_shoe1_dollar=a.pPrice3();
+        String shoe_cart1=a.cartShoeName1();
+        String cart_shoe1_dollar=a.cartshoePrice3();
         String cart_shoe1_withoutdollar=cart_shoe1_dollar.split("\u20B9")[1];
         System.out.println("shoe_cart1:"+shoe_cart1 );
         System.out.println("cart_shoe1_withoutdollar="+cart_shoe1_withoutdollar);
         int cartshoe1=Integer.parseInt(cart_shoe1_withoutdollar);
         System.out.println("After converssion first product  price to int ="+cartshoe1);
         action.delay();
-        String shoe_cart2=a.pName4();
-        String cart_shoe2_withdollar=a.pPrice4();
+        String shoe_cart2=a.cartShoeName2();
+        String cart_shoe2_withdollar=a.cartshoePrice4();
         String cart_shoe2_withoutdollar=cart_shoe2_withdollar.split("\u20B9")[1];
         System.out.println("shoe_cart2:"+shoe_cart2);
         System.out.println("cart_shoe2_withoutdollar ="+cart_shoe2_withoutdollar);

@@ -16,10 +16,8 @@ public class PomFile {
     By popUpCross = By.xpath("//div[@class='mCRfo9']/div/div/button");
     By insertField = By.xpath("//input[@name='q']");
     By hitButton = By.xpath("//button[@class='vh79eN']");
-
     By shoeSize1 = By.xpath("//a[contains(text(),'6')]");
     By addCart1 = By.xpath("//button[@class='_2AkmmA _2Npkh4 _2MWPVK']");
-
     By size2 = By.xpath("//a[contains(text(),'6')]");
     By addCart2 = By.xpath("//button[@class='_2AkmmA _2Npkh4 _2MWPVK']");
     By name1= By.xpath("//span[@class='_35KyD6']");
@@ -30,16 +28,17 @@ public class PomFile {
     By price3=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[3]/div/div[1]/div[1]/span[1]");
     By name4=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/a");
     By price4=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/span[1]");
-    By basketTotal=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div/span");//a[@class='_3ko_Ud']
-    By xname1=By.xpath("//span[@class='_2J4LW6']");
-    By yname1=By.xpath("//span[@class='_2J4LW6']");
+    By basketTotal=By.xpath("//*[@id=\"container\"]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div/span");
+    By brand_name1=By.xpath("//span[@class='_2J4LW6']");
+    By brand_name2=By.xpath("//span[@class='_2J4LW6']");
 
 
-    public String xName1(){
-        return driver.findElement(xname1).getText();
+    public String brandName1(){
+
+        return driver.findElement(brand_name1).getText();
     }
-    public String yName1(){
-        return driver.findElement(yname1).getText();
+    public String brandName2(){
+        return driver.findElement(brand_name2).getText();
     }
 
 
@@ -55,30 +54,30 @@ public class PomFile {
     }
 
 
-    public String pName1() {
+    public String shoeName1() {
     return driver.findElement(name1).getText();
 }
-    public String pPrice1() {
+    public String shoePrice1() {
         return driver.findElement(price1).getText();
     }
-    public String pName2() {
+    public String shoeName2() {
         return driver.findElement(name2).getText();
     }
-    public String pPrice2() {
+    public String shoePrice2() {
         return driver.findElement(price2).getText();
     }
 
 
-    public String pName3() {
+    public String cartShoeName1() {
         return driver.findElement(name3).getText();
     }
-    public String pPrice3() {
+    public String cartshoePrice3() {
         return driver.findElement(price3).getText();
     }
-    public String pName4() {
+    public String cartShoeName2() {
         return driver.findElement(name4).getText();
     }
-    public String pPrice4() {
+    public String cartshoePrice4() {
         return driver.findElement(price4).getText();
     }
     //to handle popup
@@ -104,7 +103,7 @@ public class PomFile {
         return driver.findElement(shoeSize1);
     }
 
-    public WebElement addTocart() {
+    public WebElement addToCartShoe1() {
 
         return driver.findElement(addCart1);
     }
@@ -116,7 +115,7 @@ public class PomFile {
         return driver.findElement(size2);
     }
 
-    public WebElement addTocart2() {
+    public WebElement addToCartShoe2() {
         return driver.findElement(addCart2);
     }
 

@@ -25,14 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readmefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readmefile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/PomFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/ExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/PomFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/PomFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/PomFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/PomFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Selection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +273,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SelenideFlipkart1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -460,26 +459,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600762272396" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601015845512">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601104382601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601015845512" />
-    <state width="1323" height="263" key="GridCell.Tab.0.bottom" timestamp="1601062607111">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601104382601" />
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
-    <state width="1323" height="263" key="GridCell.Tab.0.center" timestamp="1601062607111">
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.center" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
-    <state width="1323" height="263" key="GridCell.Tab.0.left" timestamp="1601062607111">
+    <state width="1323" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.left" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
-    <state width="1323" height="263" key="GridCell.Tab.0.right" timestamp="1601062607111">
+    <state width="1323" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
     <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -11,11 +11,11 @@ public class Selection {
 
     }
     public void getBoolean(int position) {
-            if(position==2) {
-                driver.findElement(By.xpath("(//div[@class='_1vC4OE'])[2]")).click();
-            }
             if(position==3) {
                 driver.findElement(By.xpath("(//div[@class='_1vC4OE'])[3]")).click();
+            }
+            if(position==4) {
+                driver.findElement(By.xpath("(//div[@class='_1vC4OE'])[4]")).click();
             }
 
         }
