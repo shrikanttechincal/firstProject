@@ -5,23 +5,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-public class Action {
+public class PomFile {
 
     public WebDriver driver;
 
-    //Constructor
-    public Action(WebDriver driver) {
+    public PomFile(WebDriver driver) {
         this.driver = driver;
     }
 
     By popUpCross = By.xpath("//div[@class='mCRfo9']/div/div/button");
     By insertField = By.xpath("//input[@name='q']");
     By hitButton = By.xpath("//button[@class='vh79eN']");
-    By secondpositionShoe = By.xpath("(//div[@class='_1vC4OE'])[2]");
+
     By shoeSize1 = By.xpath("//a[contains(text(),'6')]");
     By addCart1 = By.xpath("//button[@class='_2AkmmA _2Npkh4 _2MWPVK']");
 
-    By shoe2 = By.xpath("(//div[@class='_1vC4OE'])[3]");
     By size2 = By.xpath("//a[contains(text(),'6')]");
     By addCart2 = By.xpath("//button[@class='_2AkmmA _2Npkh4 _2MWPVK']");
     By name1= By.xpath("//span[@class='_35KyD6']");
@@ -57,7 +55,7 @@ public class Action {
     }
 
 
-public String pName1() {
+    public String pName1() {
     return driver.findElement(name1).getText();
 }
     public String pPrice1() {
@@ -83,12 +81,9 @@ public String pName1() {
     public String pPrice4() {
         return driver.findElement(price4).getText();
     }
-
-
-
-
-    //to close popup
+    //to handle popup
     public WebElement popUp() {
+
         return driver.findElement(popUpCross);
     }
 
@@ -103,11 +98,7 @@ public String pName1() {
         return driver.findElement(hitButton);
     }
 
-    public WebElement secondPositionshoe() {
-
-        return driver.findElement(secondpositionShoe);
-    }
-
+    //shoesize1
     public WebElement shoeSize() {
 
         return driver.findElement(shoeSize1);
@@ -118,11 +109,10 @@ public String pName1() {
         return driver.findElement(addCart1);
     }
 
-    public WebElement selectPosition3() {
-        return driver.findElement(shoe2);
-    }
+
 
     public WebElement secondShoesize() {
+
         return driver.findElement(size2);
     }
 

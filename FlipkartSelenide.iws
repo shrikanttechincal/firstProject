@@ -25,7 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FlipkartSelenide.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlipkartSelenide.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FlipkartSelenide.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readmefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readmefile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/PomFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/ExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Flipkart1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,6 +452,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="422" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600771628295" />
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601052044556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601052044556" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600762272396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -453,22 +464,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601015845512" />
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom" timestamp="1601062607111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
+    <state width="1323" height="263" key="GridCell.Tab.0.center" timestamp="1601062607111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
+    <state width="1323" height="263" key="GridCell.Tab.0.left" timestamp="1601062607111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right" timestamp="1601062607111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601062607111" />
     <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -485,5 +496,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601055781086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601055781086" />
   </component>
 </project>
