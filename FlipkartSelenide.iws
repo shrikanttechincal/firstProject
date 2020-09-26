@@ -24,7 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="c4c982c7-cec3-4e8e-8ef2-ad0f31cb78ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Flipkart1.java" afterDir="false" />
+    </list>
+>>>>>>> develop
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
