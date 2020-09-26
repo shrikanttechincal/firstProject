@@ -265,7 +265,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SelenideFlipkart1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -443,30 +443,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="422" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600771628295" />
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601052044556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601052044556" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600762272396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600762272396" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601015845512">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601104382601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601015845512" />
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1601019764637">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601104382601" />
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.center" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.left" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
-    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1601019764637">
+    <state width="1323" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right" timestamp="1601104560221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601019764637" />
+    <state width="1323" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601104560221" />
     <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1600877203638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -483,5 +487,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600877203638" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601055781086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601055781086" />
   </component>
 </project>
